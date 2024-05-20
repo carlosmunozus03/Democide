@@ -1,0 +1,85 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #212529; /* Negro */
+  color: #ffffff; /* Blanco */
+  line-height: 1.6;
+}
+
+header {
+  background-color: #343a40; /* Gris oscuro */
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px; /* Agregamos un pequeño margen inferior para separar del contenido siguiente */
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #ffffff; /* Blanco */
+  text-decoration: none;
+}
+
+/* Estilos del hero */
+.hero {
+  background-color: #6c757d; /* Gris */
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dc3545; /* Rojo oscuro */
+  color: #ffffff; /* Blanco */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #c82333; /* Rojo más oscuro */
+}
+
+footer {
+  background-color: #343a40; /* Gris oscuro */
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em; /* Reducimos ligeramente el tamaño del texto del pie de página */
+}
