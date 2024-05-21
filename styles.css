@@ -18,11 +18,23 @@ H1, H2, H3, H4, H5, H6, a {
   font-style: normal;
   }
 
+#band-logo{
+  border-width: 10px;
+  border-color: white;
+}
+
+#band-logo:hover {
+    color: red;
+  }
+
+
 /*Spotify Player*/
 iframe, .spotify-play{
-  background-color: #900000;
-  padding: 0;
+  position: fixed;
+  /*background-color: #900000;*/
+  bottom: .1em;
   margin: 0;
+  padding: 0;
 }
 
 header{
