@@ -18,6 +18,13 @@ H1, H2, H3, H4, H5, H6, a {
   font-style: normal;
   }
 
+/*Banner Image */
+.hero {
+  background-image: url("assets/images/band_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 /* Estilos generales */
 body {
