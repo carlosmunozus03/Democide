@@ -18,6 +18,12 @@ H1, H2, H3, H4, H5, H6, a {
   font-style: normal;
   }
 
+/*Spotify Player*/
+iframe{
+  background-color: #900000;
+  margin-top: .45em;
+}
+
 /*Banner Image */
 .hero {
   background-image: url("assets/images/band_image.jpg");
@@ -96,7 +102,8 @@ nav ul li a {
 .hero .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #dc3545; /* Rojo oscuro */
+  background-color: #900000 ; /* Rojo oscuro */
+  border-color: #900000;
   color: #ffffff; /* Blanco */
   text-decoration: none;
   border-radius: 5px;
@@ -104,7 +111,7 @@ nav ul li a {
 }
 
 .hero .btn:hover {
-  background-color: #c82333; /* Rojo más oscuro */
+  background-color: #ff0000 ; /* Rojo más oscuro */
 }
 
 footer {
