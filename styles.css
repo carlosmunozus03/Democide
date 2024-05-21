@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal&family=Metal+Mania&display=swap');
+
 /* Reset de estilos */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Metal", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+H1, H2, H3, H4, H5, H6, a {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  }
+
 
 /* Estilos generales */
 body {
@@ -21,6 +35,18 @@ header {
 header h1 {
   font-size: 2.5em;
   margin-bottom: 10px; /* Agregamos un pequeño margen inferior para separar del contenido siguiente */
+}
+
+/*nav{*/
+/*  background-color: black;*/
+/*}*/
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ff0000  ; /*Change color to red on hover*/
 }
 
 nav ul {
