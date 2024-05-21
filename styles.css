@@ -19,16 +19,16 @@ H1, H2, H3, H4, H5, H6, a {
   }
 
 /*Spotify Player*/
-iframe{
+iframe, .spotify-play{
   background-color: #900000;
-  margin-top: .45em;
+  padding: 0;
+  margin: 0;
 }
 
-/*Banner Image */
-.hero {
-  background-image: url("assets/images/band_image.jpg");
+header{
+  background-image: url("assets/images/pexels-jplenio.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
 }
 
 
@@ -82,6 +82,12 @@ nav ul li a {
   color: #fff;
   padding: 100px 20px;
   text-align: center;
+  height: 500px;
+
+  background-image: url("assets/images/band_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
 }
 
 .hero-content {
