@@ -55,6 +55,11 @@ body {
   color: #ffffff; /* Blanco */
   line-height: 1.6;
 
+  /*Esto va ayudar a que el footer se quede abajo*/
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
   background-image: url("assets/images/pexels-jplenio.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,6 +149,8 @@ nav ul li a {
 }
 
 footer {
+  /*Esot va ayudar que el footer se quede abajo*/
+  margin-top: auto;
   background-color: #343a40; /* Gris oscuro */
   text-align: center;
   padding: 20px;
