@@ -136,8 +136,9 @@ footer {
   background-color: #343a40; /* Gris oscuro */
   text-align: center;
   padding: 20px;
-  /*position: absolute;*/
+ /*  position: absolute; */
   bottom: 0;
   width: 100%;
   font-size: 0.9em; /* Reducimos ligeramente el tamaño del texto del pie de página */
 }
+
