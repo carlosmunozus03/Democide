@@ -220,3 +220,11 @@ footer {
   
 } */
 
+.table.dark-grey-table {
+  /*--bs-table-color-type: rgb(40, 40, 40);*/
+  --bs-table-bg-type: rgb(40, 40, 40);
+  --bs-table-color-state: initial;
+  --bs-table-bg-state: initial;
+  --bs-table-color: darkgray;
+}
+
