@@ -191,7 +191,7 @@ footer {
 
 
 /*Media Types*/
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   header{
     margin-bottom: 1em;
   }
@@ -218,4 +218,5 @@ footer {
 
   }
   
-}
+} */
+
